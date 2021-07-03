@@ -1,0 +1,76 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+img {
+    align-self: center;
+    justify-self: center;
+    justify-self: center;
+    width: 12%;
+}
+
+header img {
+    margin: 10px;
+    margin-right: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0px;
+    border-color: black;
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #901f1f;
+    margin-right: 50px;
+}
+
+header div h1 {
+    margin: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+header div h2 {
+    margin: 10px;
+    margin-top: 10px;
+}
+
+.page_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-right: 40px;
+}
+
+.page_text {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-right: 20px;
+    width: 80%;
+}
+
+.page_text .topico {
+    margin-left: 12px;
+}
+
+.page_text .topico p {
+    margin-left: 12px;
+}
