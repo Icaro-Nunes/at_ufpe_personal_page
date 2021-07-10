@@ -39,6 +39,7 @@ header div {
     justify-content: center;
     background-color: #901f1f;
     margin-right: 0px;
+    margin: 2%;
 }
 
 header div h1 {
@@ -90,6 +91,10 @@ header div h2 {
     margin-bottom: 4px;
 }
 
+footer {
+    margin-top: 40px;
+}
+
 @media(min-width: 1000px){
     header {
         flex-direction: row;
@@ -97,6 +102,7 @@ header div h2 {
     }
     
     header div {
+        margin: 0px;
         margin-right: 50px;
     }
     
@@ -106,6 +112,18 @@ header div h2 {
         margin-bottom: 15px;
 
         width: 12%;
+    }
+
+    header div h1 {
+        margin: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    header div h2 {
+        margin: 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
 
     .page_text {
