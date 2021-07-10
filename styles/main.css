@@ -84,3 +84,35 @@ header div h2 {
     margin-left: 12px;
     margin-bottom: 4px;
 }
+
+@media(max-width: 700px){
+    header {
+        flex-direction: column;
+        background-color: #901f1f;
+    }
+    
+    header div {
+        margin-right: 0px;
+    }
+    
+    header img {
+        margin-top: 20px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        width: 80vw;
+    }
+
+    header div h2 {
+        margin-bottom: 20px;
+    }
+}
+
+@media(min-width: 701px){
+    .page_text {
+        margin-top: 35px;
+    }
+
+    .page_text .topico {
+        margin-bottom: 35px;
+    }
+}
